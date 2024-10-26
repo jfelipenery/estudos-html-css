@@ -1,0 +1,122 @@
+@charset
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@400..900&display=swap');
+
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+
+
+body {
+   background: linear-gradient(to left, rgb(88, 47, 238),rgba(59, 167, 118, 0.8), #fd7d42); 
+   color:black;
+   margin-left: 10px;
+   font-size: 18px;
+   font-family: "Orbitron", sans-serif;
+   font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+}
+header {
+    padding: 1rem;
+    text-align: center;
+}
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    accent-color: blue;
+}
+
+input [type="text"], input [type="password"], input [type="date"], input [type="email"]{
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+
+}
+select {
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+}
+img{
+    width: 20rem;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    padding: 1rem;
+}
+
+td{
+    padding: 1rem;
+    text-align: center;
+}
+tfoot td {
+    text-align: center;
+} 
+
+details {
+    background-color: black;
+    color: white;
+    padding: 0.3rem;
+}
+summary {
+    margin: 0.3rem;
+    cursor: pointer;
+}
+ol{
+    margin-left: 1.5rem;
+}
+li{
+    padding: 0.2rem;
+}
+
+fieldset {
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 1rem;
+
+}
+legend {
+    color: black;
+    padding: 0 0.5rem;
+}
+textarea {
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: transparent;
+
+
+}
+button {
+    background-color: white;
+    border-radius: 5px;
+    
+
+}
+footer{
+    text-align: center;
+    
+}
